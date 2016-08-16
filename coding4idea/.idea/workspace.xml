@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e29c1f32-2046-4386-919c-1b804afb14e2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/AbstractLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/DimensionInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/GridLayoutManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/SupportCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/VerticalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/icons/CodingNetIcons.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$ICodingNetOpenAPICodeMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NeedVerificationCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NeedVerificationCodeMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoExistUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoExistUserMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoLogin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoLoginMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserLocked.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserLockedCodeMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserPasswordNoCorrect.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserPasswordNoCorrectMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenInBrowserAction$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenInBrowserAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetShowCommitInBrowserAction$CommitData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetShowCommitInBrowserAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetShowCommitInBrowserFromAnnotateAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetApiUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorization.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorizationCreateRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorizationRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorizationUpdateRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetBranch.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetBranchRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetChangeIssueStateRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommit$GitCommit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommit$GitUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitComment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitCommentRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitDetailed$CommitStats.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitDetailed.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw$CommitStatsRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw$GitCommitRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw$GitUserRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitSha.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$HttpVerb.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$PagedRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$PreemptiveBasicAuthInterceptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$ResponsePage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetErrorMessage$Error.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetErrorMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetFileRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetFullPath.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGist$FileContent.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGist$GistFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGist.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRaw$GistFileRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRequest$GistFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssueComment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssueCommentRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssueRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssuesSearchResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssuesSearchResultRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetOrg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetOrgRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequest$Link.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequestRaw$LinkRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequestRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequestRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoDetailed.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoOrg$Permissions.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoOrg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserDetailed$Data.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserDetailed$UserPlan.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserDetailed.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserRaw$Data.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserRaw$UserPlanRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserRaw.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/ICodingNetDataConstructor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetAuthenticationException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetConfusingException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetJsonException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetOperationCanceledException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetStatusCodeException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetTwoFactorAuthenticationException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetAnnotationGutterActionProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetCheckoutProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetHttpAuthDataProvider$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetHttpAuthDataProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/security/CodingNetSecurityUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetComment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryEditor$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryEditor$MyTextField.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryEditor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetBasicLoginDialog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginDialog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$MyFocusTraversalPolicy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsConfigurableProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$AuthType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$BasicAuth.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$TokenAuth.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthDataHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetNotifications.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetSettings$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetSettings$State.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetSettings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUrlUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coding4idea.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/codinggit4idea.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/resources/META-INF/coding-tracker.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/resources/META-INF/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/icons/CodingNetIcons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenAPICodeMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenInBrowserAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetShowCommitInBrowserAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetShowCommitInBrowserFromAnnotateAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorization.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorizationCreateRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorizationRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorizationUpdateRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetBranch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetBranchRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetChangeIssueStateRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitCommentRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitDetailed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitSha.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetErrorMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetFileRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetFullPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetGist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetGistRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetGistRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssueComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssueCommentRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssueRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssuesSearchResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssuesSearchResultRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetOrg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetOrgRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetPullRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetPullRequestRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetPullRequestRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoDetailed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoOrg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserDetailed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserRaw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/ICodingNetDataConstructor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetAuthenticationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetConfusingException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetJsonException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetOperationCanceledException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetStatusCodeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetTwoFactorAuthenticationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetAnnotationGutterActionProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetCheckoutProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetHttpAuthDataProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/security/CodingNetSecurityUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepositoryEditor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepositoryType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetBasicLoginDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsConfigurableProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthDataHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetNotifications.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUrlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/META-INF/coding-tracker.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/META-INF/plugin.xml" />
+    </list>
+    <list id="8e19cadc-2b6a-4e7e-b710-7444a2aaff2f" name="New changelist" comment="" />
+    <ignored path="coding4idea.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="coding4idea" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CodingNetLoginPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#7407#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Action" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepositoryType.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/GithubRepo.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/GithubUrlUtil.java" />
+        <option value="$APPLICATION_HOME_DIR$/lib/httpcore-4.4.1.jar!/org/apache/http/HttpStatus.class" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetMessage.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenAPI.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetMessage.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenAPICode.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/GithubLoginPanel.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/GithubUserDetailed.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/GithubUser.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetGitLoginDialog.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/icons/GithubIcons.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetGitUtil.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/security/CodingNetSecurityUtil.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/GithubShareAction.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/GithubUserRaw.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUser.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserRaw.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserDetailed.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthData.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/GithubConfusingException.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetConfusingException.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/GithubRepoRaw.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoRaw.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingRepo.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetGitCheckoutProvider.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/GithubSelectForkDialog.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/GithubCreatePullRequestDialog.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/GithubProjectSettings.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/GithubCreatePullRequestPanel.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/GithubCreateGistAction.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/GithubCreatePullRequestAction.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/GithubCreatePullRequestWorker.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/GithubNotifications.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetNotifications.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUrlUtil.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepository.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/icons/CodingNetIcons.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/component/CodingNetComponent.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/component/CodingNetApplicationComponent.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetCheckoutProvider.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.form" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenAPICodeMsg.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.form" />
+        <option value="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="731" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="246" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="208" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codinggit4idea/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/codinggit4idea/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Plugin.codinggit4idea">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="codinggit4idea" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="coding4idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="codinggit4idea" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="codinggit4idea" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <alternative-path path="IntelliJ IDEA Community Edition IC-162.1121.32" alternative-path-enabled="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Plugin.codinggit4idea" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_FIELDS,SHOW_NON_PUBLIC,SHOW_INHERITED,SHOW_ANONYMOUS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e29c1f32-2046-4386-919c-1b804afb14e2" name="Default" comment="" />
+      <changelist id="8e19cadc-2b6a-4e7e-b710-7444a2aaff2f" name="New changelist" comment="" />
+      <created>1470325682059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470325682059</updated>
+    </task>
+    <task id="LOCAL-00001" summary="初期导入">
+      <created>1470616094795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1470616094795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初期导入">
+      <created>1470879819340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470879819340</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初期导入">
+      <created>1470879941099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1470879941099</updated>
+    </task>
+    <task id="LOCAL-00004" summary="项目配置信息">
+      <created>1471094208660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1471094208660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New changelist">
+      <created>1471097645405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471097645405</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New changelist">
+      <created>1471098289526</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1471098289526</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New changelist">
+      <created>1471098627881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1471098627882</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New changelist">
+      <created>1471098743263</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1471098743263</updated>
+    </task>
+    <task id="LOCAL-00009" summary="New changelist">
+      <created>1471099505257</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1471099505257</updated>
+    </task>
+    <task id="LOCAL-00010" summary="New changelist">
+      <created>1471099658814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1471099658814</updated>
+    </task>
+    <task id="LOCAL-00011" summary="New changelist">
+      <created>1471150724260</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1471150724260</updated>
+    </task>
+    <task id="LOCAL-00012" summary="基本功能实现">
+      <created>1471334177573</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1471334177573</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="731" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48613375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30210015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2584814" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22512235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27079934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22312704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初期导入" />
+    <MESSAGE value="项目配置信息" />
+    <MESSAGE value="New changelist" />
+    <MESSAGE value="基本功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本功能实现" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java</url>
+          <line>513</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java</url>
+          <line>521</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java</url>
+          <line>328</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/component/CodingNetApplicationComponent.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/component/CodingNetApplicationComponent.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java</url>
+          <line>300</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java</url>
+          <line>246</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../intellij-community/platform/core-api/src/com/intellij/openapi/progress/Task.java</url>
+          <line>309</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java</url>
+          <line>307</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java</url>
+          <line>288</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="149" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="383" column="18" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/vcs-impl/src/com/intellij/openapi/vcs/checkout/CheckoutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/editor-ui-api/src/com/intellij/openapi/actionSystem/ActionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/platform-impl/src/com/intellij/openapi/actionSystem/impl/ActionManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1047" column="0" selection-start-line="1047" selection-start-column="0" selection-end-line="1047" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-api/src/com/intellij/openapi/application/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-impl/src/com/intellij/util/CachedValueImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/platform-impl/src/com/intellij/openapi/actionSystem/impl/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/platform-impl/src/com/intellij/openapi/actionSystem/impl/ActionMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-impl/src/com/intellij/openapi/components/impl/ComponentManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="532" column="16" selection-start-line="532" selection-start-column="16" selection-end-line="532" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/platform-impl/src/com/intellij/openapi/actionSystem/ComputableActionGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/component/CodingNetApplicationComponent.java" />
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-api/src/com/intellij/openapi/components/ProjectComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-api/src/com/intellij/openapi/components/BaseComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/vcs-api/src/com/intellij/openapi/vcs/CheckoutProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetHttpAuthDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/util-rt/src/com/intellij/reference/SoftReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/util-rt/src/com/intellij/BundleBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/util/src/com/intellij/CommonBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/vcs-impl/src/com/intellij/openapi/vcs/checkout/CheckoutActionGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserRaw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserDetailed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthDataHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-impl/src/com/intellij/openapi/progress/impl/CoreProgressManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="638" column="0" selection-start-line="638" selection-start-column="0" selection-end-line="638" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetAuthenticationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetCheckoutProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsConfigurableProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28245">
+          <caret line="1924" column="16" selection-start-line="1924" selection-start-column="16" selection-end-line="1924" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1071" column="0" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-api/src/com/intellij/openapi/progress/ProgressManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/core-api/src/com/intellij/openapi/progress/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../intellij-community/platform/platform-impl/src/com/intellij/openapi/progress/impl/ProgressManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="460" column="0" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenAPICodeMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="354" column="23" selection-start-line="354" selection-start-column="23" selection-end-line="354" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="230" column="68" selection-start-line="230" selection-start-column="68" selection-end-line="230" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#7407#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>IntelliJ IDEA Community Edition IC-162.1121.32</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>codinggit4idea</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
