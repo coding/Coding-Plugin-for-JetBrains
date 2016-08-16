@@ -84,7 +84,7 @@ public enum CodingNetOpenAPICodeMsg {
 
         @Override
         public String getMessage() {
-            return msg.toString();
+            return "登陆次数已超过最大上限,请稍后再试.";
         }
     }
 
