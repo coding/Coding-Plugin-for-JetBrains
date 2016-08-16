@@ -2,237 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e29c1f32-2046-4386-919c-1b804afb14e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/AbstractLayout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/DimensionInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/GridConstraints.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/GridLayoutManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/HorizontalInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/LayoutState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/Spacer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/SupportCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/Util.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/VerticalInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/icons/CodingNetIcons.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$ICodingNetOpenAPICodeMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NeedVerificationCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NeedVerificationCodeMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoExistUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoExistUserMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoLogin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$NoLoginMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserLocked.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserLockedCodeMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserPasswordNoCorrect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg$UserPasswordNoCorrectMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenAPICodeMsg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenInBrowserAction$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetOpenInBrowserAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetShowCommitInBrowserAction$CommitData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetShowCommitInBrowserAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/CodingNetShowCommitInBrowserFromAnnotateAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetApiUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorization.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorizationCreateRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorizationRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetAuthorizationUpdateRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetBranch.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetBranchRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetChangeIssueStateRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommit$GitCommit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommit$GitUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitComment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitCommentRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitDetailed$CommitStats.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitDetailed.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw$CommitStatsRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw$GitCommitRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw$GitUserRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetCommitSha.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$HttpVerb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$PagedRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$PreemptiveBasicAuthInterceptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection$ResponsePage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetConnection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetErrorMessage$Error.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetErrorMessage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetFileRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetFullPath.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGist$FileContent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGist$GistFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGist.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRaw$GistFileRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRequest$GistFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetGistRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssueComment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssueCommentRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssueRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssuesSearchResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetIssuesSearchResultRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetOrg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetOrgRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequest$Link.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequestRaw$LinkRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequestRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetPullRequestRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoDetailed.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoOrg$Permissions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoOrg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetRepoRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserDetailed$Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserDetailed$UserPlan.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserDetailed.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserRaw$Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserRaw$UserPlanRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/CodingNetUserRaw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/api/ICodingNetDataConstructor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetAuthenticationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetConfusingException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetJsonException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetOperationCanceledException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetStatusCodeException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/exceptions/CodingNetTwoFactorAuthenticationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetAnnotationGutterActionProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetCheckoutProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetHttpAuthDataProvider$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/providers/CodingNetHttpAuthDataProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/security/CodingNetSecurityUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetComment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryEditor$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryEditor$MyTextField.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryEditor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/tasks/CodingNetRepositoryType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetBasicLoginDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel$MyFocusTraversalPolicy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetLoginPanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsConfigurableProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/ui/CodingNetSettingsPanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$AuthType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$BasicAuth.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData$TokenAuth.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetAuthDataHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetNotifications.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetSettings$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetSettings$State.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetSettings.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUrlUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/org/coding/git/util/CodingNetUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coding4idea.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/codinggit4idea.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/resources/META-INF/coding-tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/resources/META-INF/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/icons/CodingNetIcons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenAPICodeMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetOpenInBrowserAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetShowCommitInBrowserAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/CodingNetShowCommitInBrowserFromAnnotateAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetApiUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorizationCreateRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorizationRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetAuthorizationUpdateRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetBranch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetBranchRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetChangeIssueStateRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitCommentRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitDetailed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetCommitSha.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetErrorMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetFileRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetFullPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetGist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetGistRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetGistRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssueComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssueCommentRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssueRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssuesSearchResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetIssuesSearchResultRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetOrg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetOrgRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetPullRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetPullRequestRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetPullRequestRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoDetailed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoOrg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetRepoRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserDetailed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/CodingNetUserRaw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/api/ICodingNetDataConstructor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetAuthenticationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetConfusingException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetJsonException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetOperationCanceledException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetStatusCodeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/exceptions/CodingNetTwoFactorAuthenticationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetAnnotationGutterActionProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetCheckoutProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/providers/CodingNetHttpAuthDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/security/CodingNetSecurityUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepositoryEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/tasks/CodingNetRepositoryType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetBasicLoginDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsConfigurableProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetSettingsPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetAuthDataHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetNotifications.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUrlUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codinggit4idea/src/org/coding/git/util/CodingNetUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/META-INF/coding-tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/codinggit4idea/META-INF/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="8e19cadc-2b6a-4e7e-b710-7444a2aaff2f" name="New changelist" comment="" />
     <ignored path="coding4idea.iws" />
@@ -253,21 +23,7 @@
     <favorites_list name="coding4idea" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CodingNetLoginPanel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#7407#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -382,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
@@ -407,7 +164,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -436,7 +192,163 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uiDesigner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodingNetLoginPanel" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codinggit4idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -890,12 +802,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27079934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48613375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48613375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -906,7 +819,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22512235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27079934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1069,13 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/reflect/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1424,14 +1329,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/codinggit4idea/com/intellij/uiDesigner/core/AbstractLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codinggit4idea/src/org/coding/git/ui/CodingNetLoginPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#7407#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="191" column="62" selection-start-line="191" selection-start-column="62" selection-end-line="191" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
