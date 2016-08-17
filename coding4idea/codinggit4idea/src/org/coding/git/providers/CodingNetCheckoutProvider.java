@@ -25,6 +25,7 @@ import git4idea.checkout.GitCheckoutProvider;
 import git4idea.checkout.GitCloneDialog;
 import git4idea.commands.Git;
 import org.coding.git.api.CodingNetApiUtil;
+import org.coding.git.check.CodingNetGitCloneDialog;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.coding.git.api.CodingNetRepo;
@@ -42,59 +43,58 @@ import java.util.List;
  */
 public class CodingNetCheckoutProvider implements CheckoutProvider {
 
-  public CodingNetCheckoutProvider(){
+    public CodingNetCheckoutProvider() {
 
-  }
-
-
-  @Override
-  public void doCheckout(@NotNull final Project project, @Nullable final Listener listener) {
-    //--检测Git环境
-    if (!CodingNetUtil.testGitExecutable(project)) {
-      return;
     }
-    BasicAction.saveAll();
 
-    List<CodingNetRepo> availableRepos;
-    try {
-      //--获取有效资源
-      availableRepos = CodingNetUtil.computeValueInModalIO(project, "Access to Coding.net", indicator ->
-        CodingNetUtil.runTask(project, CodingNetAuthDataHolder.createFromSettings(), indicator, CodingNetApiUtil::getAvailableRepos));
-    }
-    catch (IOException e) {
-      CodingNetNotifications.showError(project, "Couldn't get the list of Coding.net repositories", e);
-      return;
-    }
+
+    @Override
+    public void doCheckout(@NotNull final Project project, @Nullable final Listener listener) {
+        //--检测Git环境
+        if (!CodingNetUtil.testGitExecutable(project)) {
+            return;
+        }
+        BasicAction.saveAll();
+
+        List<CodingNetRepo> availableRepos;
+        try {
+            //--获取有效资源
+            availableRepos = CodingNetUtil.computeValueInModalIO(project, "Access to Coding.net", indicator ->
+                    CodingNetUtil.runTask(project, CodingNetAuthDataHolder.createFromSettings(), indicator, CodingNetApiUtil::getAvailableRepos));
+        } catch (IOException e) {
+            CodingNetNotifications.showError(project, "Couldn't get the list of Coding.net repositories", e);
+            return;
+        }
 //    Collections.sort(availableRepos, (r1, r2) -> {
 //      final int comparedOwners = r1.getUserName().compareTo(r2.getUserName());
 //      return comparedOwners != 0 ? comparedOwners : r1.getName().compareTo(r2.getName());
 //    });
 
-    final GitCloneDialog dialog = new GitCloneDialog(project);
-    // Add predefined repositories to history
-    //dialog.prependToHistory("-----------------------------------------------");
-    for (int i = availableRepos.size() - 1; i >= 0; i--) {
-      //dialog.prependToHistory(CodingNetUrlUtil.getCloneUrl(availableRepos.get(i).getFullPath()));
-      dialog.prependToHistory(availableRepos.get(i).getHttpsUrl());
-    }
-    if (!dialog.showAndGet()) {
-      return;
-    }
-    dialog.rememberSettings();
-    final VirtualFile destinationParent = LocalFileSystem.getInstance().findFileByIoFile(new File(dialog.getParentDirectory()));
-    if (destinationParent == null) {
-      return;
-    }
-    final String sourceRepositoryURL = dialog.getSourceRepositoryURL();
-    final String directoryName = dialog.getDirectoryName();
-    final String parentDirectory = dialog.getParentDirectory();
+        final CodingNetGitCloneDialog dialog = new CodingNetGitCloneDialog(project);
+        dialog.cleanCacheModel();
+        // Add predefined repositories to history
+        //dialog.prependToHistory("-----------------------------------------------");
+        for (int i = availableRepos.size() - 1; i >= 0; i--) {
+            dialog.prependToHistory(availableRepos.get(i).getHttpsUrl());
+        }
+        if (!dialog.showAndGet()) {
+            return;
+        }
+        dialog.rememberSettings();
+        final VirtualFile destinationParent = LocalFileSystem.getInstance().findFileByIoFile(new File(dialog.getParentDirectory()));
+        if (destinationParent == null) {
+            return;
+        }
+        final String sourceRepositoryURL = dialog.getSourceRepositoryURL();
+        final String directoryName = dialog.getDirectoryName();
+        final String parentDirectory = dialog.getParentDirectory();
 
-    Git git = ServiceManager.getService(Git.class);
-    GitCheckoutProvider.clone(project, git, listener, destinationParent, sourceRepositoryURL, directoryName, parentDirectory);
-  }
+        Git git = ServiceManager.getService(Git.class);
+        GitCheckoutProvider.clone(project, git, listener, destinationParent, sourceRepositoryURL, directoryName, parentDirectory);
+    }
 
-  @Override
-  public String getVcsName() {
-    return "Coding.net";
-  }
+    @Override
+    public String getVcsName() {
+        return "Coding.net";
+    }
 }

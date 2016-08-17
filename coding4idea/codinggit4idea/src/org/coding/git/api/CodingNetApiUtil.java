@@ -240,26 +240,28 @@ public class CodingNetApiUtil {
     @NotNull
     public static CodingNetUserDetailed getCurrentUserDetailed(@NotNull CodingNetConnection connection, CodingNetAuthData authData) throws IOException {
         try {
-
             CodingNetAuthData.BasicAuth auth = authData.getBasicAuth();
-            String password = CodingNetSecurityUtil.getUserPasswordOfSHA1(auth.getPassword());
-            CodingNetConnection.ResponsePage responsePage = connection.doPostRequest("/api/v2/account/login?" + "account=" + auth.getLogin() + "&" + "password=" + password + "&" + "remember_me=false", null, ACCEPT_JSON);
-            JsonElement result = responsePage.getJsonElement();
-            CodingNetUserDetailed codingNetUserDetailed = createDataFromRaw(fromJson(result, CodingNetUserRaw.class), CodingNetUserDetailed.class);
-            Header[] headers = responsePage.getHeaders();
-            for (Header header : headers) {
-                if (header.getName().equals("Set-Cookie")) {
-                    HeaderElement[] headerElements = header.getElements();
-                    for (HeaderElement headerElement : headerElements) {
-                        if (headerElement.getName().equals("sid")) {
-                            authData.getBasicAuth().setCode(headerElement.getValue());
-                            break;
+            if(auth!=null) {
+                String password = CodingNetSecurityUtil.getUserPasswordOfSHA1(auth.getPassword() == null ? "" : auth.getPassword());
+                CodingNetConnection.ResponsePage responsePage = connection.doPostRequest("/api/v2/account/login?" + "account=" + auth.getLogin() + "&" + "password=" + password + "&" + "remember_me=false", null, ACCEPT_JSON);
+                JsonElement result = responsePage.getJsonElement();
+                CodingNetUserDetailed codingNetUserDetailed = createDataFromRaw(fromJson(result, CodingNetUserRaw.class), CodingNetUserDetailed.class);
+                Header[] headers = responsePage.getHeaders();
+                for (Header header : headers) {
+                    if (header.getName().equals("Set-Cookie")) {
+                        HeaderElement[] headerElements = header.getElements();
+                        for (HeaderElement headerElement : headerElements) {
+                            if (headerElement.getName().equals("sid")) {
+                                authData.getBasicAuth().setCode(headerElement.getValue());
+                                break;
+                            }
                         }
+                        break;
                     }
-                    break;
                 }
+                return codingNetUserDetailed;
             }
-            return codingNetUserDetailed;
+            throw new CodingNetAuthenticationException();
         } catch (CodingNetConfusingException e) {
             e.setDetails("Can't get user info");
             throw e;
