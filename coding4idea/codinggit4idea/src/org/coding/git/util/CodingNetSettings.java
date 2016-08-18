@@ -205,7 +205,7 @@ public class CodingNetSettings implements PersistentStateComponent<CodingNetSett
     switch (auth.getAuthType()) {
       case BASIC:
         assert auth.getBasicAuth() != null;
-        return auth.getBasicAuth().getCode() == null;
+        return auth.getBasicAuth().getSid() == null;
       case TOKEN:
         return true;
       case ANONYMOUS:

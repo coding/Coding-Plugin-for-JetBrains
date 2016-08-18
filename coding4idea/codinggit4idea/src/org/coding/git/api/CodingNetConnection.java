@@ -176,7 +176,7 @@ public class CodingNetConnection {
         BasicCookieStore cookieStore = new BasicCookieStore();
         CodingNetAuthData.BasicAuth basicAuth = auth.getBasicAuth();
         if (basicAuth != null) {
-            String code = basicAuth.getCode();
+            String code = basicAuth.getSid();
             if (code != null) {
                 BasicClientCookie cookie = new BasicClientCookie("sid", code);
                 cookie.setDomain(".coding.net");
@@ -236,8 +236,8 @@ public class CodingNetConnection {
             headers.add(new BasicHeader("Authorization", "token " + tokenAuth.getToken()));
         }
         CodingNetAuthData.BasicAuth basicAuth = auth.getBasicAuth();
-        if (basicAuth != null && basicAuth.getCode() != null) {
-            headers.add(new BasicHeader("X-GitHub-OTP", basicAuth.getCode()));
+        if (basicAuth != null && basicAuth.getSid() != null) {
+            headers.add(new BasicHeader("X-GitHub-OTP", basicAuth.getSid()));
         }
         return headers;
     }
@@ -287,7 +287,6 @@ public class CodingNetConnection {
 
             //--守护CodingNet返回的业务状态码
             checkCodingNetCode(ret);
-
 
             String nextPage = null;
             Header pageHeader = response.getFirstHeader("Link");
@@ -352,6 +351,14 @@ public class CodingNetConnection {
         } else if (code == CodingNetOpenAPICodeMsg.USER_PASSWORD_NO_CORRECT.getCode()) {
             CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg codingNetOpenAPICodeMsg = (CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg) fromJson(jsonElement, CodingNetOpenAPICodeMsg.USER_PASSWORD_NO_CORRECT.getClazz());
             throw new CodingNetAuthenticationException(codingNetOpenAPICodeMsg.getMessage());
+        } else if (code == CodingNetOpenAPICodeMsg.AUTH_ERROR.getCode()) {
+            CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg codingNetOpenAPICodeMsg = (CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg) fromJson(jsonElement, CodingNetOpenAPICodeMsg.AUTH_ERROR.getClazz());
+            throw new CodingNetTwoFactorAuthenticationException(codingNetOpenAPICodeMsg.getMessage());
+        } else if (code == CodingNetOpenAPICodeMsg.NEED_TWO_FACTOR_AUTH_CODE.getCode() || code == CodingNetOpenAPICodeMsg.TWO_FACTOR_AUTH_CODE_REQUIRED.getCode()) {
+            return;
+        } else if (code == CodingNetOpenAPICodeMsg.LOGIN_EXPIRED.getCode()) {
+            CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg codingNetOpenAPICodeMsg = (CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg) fromJson(jsonElement, CodingNetOpenAPICodeMsg.LOGIN_EXPIRED.getClazz());
+            throw new CodingNetTwoFactorAuthenticationException(codingNetOpenAPICodeMsg.getMessage());
         } else if (code != 0) {
             throw new CodingNetAuthenticationException();
         }

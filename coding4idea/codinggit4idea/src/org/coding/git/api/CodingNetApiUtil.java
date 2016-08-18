@@ -24,15 +24,12 @@ import org.apache.http.Header;
 import org.apache.http.HeaderElement;
 import org.apache.http.message.BasicHeader;
 import org.coding.git.CodingNetOpenAPICodeMsg;
-import org.coding.git.exceptions.CodingNetAuthenticationException;
-import org.coding.git.exceptions.CodingNetConfusingException;
-import org.coding.git.exceptions.CodingNetJsonException;
+import org.coding.git.exceptions.*;
 import org.coding.git.security.CodingNetSecurityUtil;
 import org.coding.git.util.CodingNetAuthData;
 import org.coding.git.util.CodingNetUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.coding.git.exceptions.CodingNetStatusCodeException;
 
 import java.io.IOException;
 import java.net.URLEncoder;
@@ -43,7 +40,7 @@ public class CodingNetApiUtil {
 
     public static final String DEFAULT_CODING_HOST = "coding.net";
 
-    private static final String PER_PAGE = "per_page=100";
+    private static final String PER_PAGE = "pageSize=500";
 
     private static final Header ACCEPT_V3_JSON_HTML_MARKUP = new BasicHeader("Accept", "application/vnd.github.v3.html+json");
     private static final Header ACCEPT_JSON = new BasicHeader("Accept", "application/json");
@@ -239,33 +236,39 @@ public class CodingNetApiUtil {
      */
     @NotNull
     public static CodingNetUserDetailed getCurrentUserDetailed(@NotNull CodingNetConnection connection, CodingNetAuthData authData) throws IOException {
+        CodingNetConnection.ResponsePage responsePage = null;
         try {
             CodingNetAuthData.BasicAuth auth = authData.getBasicAuth();
-            if(auth!=null) {
-                String password = CodingNetSecurityUtil.getUserPasswordOfSHA1(auth.getPassword() == null ? "" : auth.getPassword());
-                CodingNetConnection.ResponsePage responsePage = connection.doPostRequest("/api/v2/account/login?" + "account=" + auth.getLogin() + "&" + "password=" + password + "&" + "remember_me=false", null, ACCEPT_JSON);
-                JsonElement result = responsePage.getJsonElement();
-                CodingNetUserDetailed codingNetUserDetailed = createDataFromRaw(fromJson(result, CodingNetUserRaw.class), CodingNetUserDetailed.class);
-                Header[] headers = responsePage.getHeaders();
-                for (Header header : headers) {
-                    if (header.getName().equals("Set-Cookie")) {
-                        HeaderElement[] headerElements = header.getElements();
-                        for (HeaderElement headerElement : headerElements) {
-                            if (headerElement.getName().equals("sid")) {
-                                authData.getBasicAuth().setCode(headerElement.getValue());
-                                break;
-                            }
-                        }
-                        break;
-                    }
+            if (auth != null) {
+                String authCode = auth.getAuthCode();
+                //--守护两步认证
+                if (authCode != null) {
+                    responsePage = connection.doPostRequest("/api/check_two_factor_auth_code?" + "code=" + authCode, null, ACCEPT_JSON);
+                } else {
+                    String password = CodingNetSecurityUtil.getUserPasswordOfSHA1(auth.getPassword() == null ? "" : auth.getPassword());
+                    responsePage = connection.doPostRequest("/api/v2/account/login?" + "account=" + auth.getLogin() + "&" + "password=" + password + "&" + "remember_me=false", null, ACCEPT_JSON);
                 }
+                JsonElement result = responsePage.getJsonElement();
+
+                int code = result.getAsJsonObject().get("code").getAsInt();
+                if (code == CodingNetOpenAPICodeMsg.NEED_TWO_FACTOR_AUTH_CODE.getCode()||code==CodingNetOpenAPICodeMsg.TWO_FACTOR_AUTH_CODE_REQUIRED.getCode()) {
+                    throw new CodingNetTwoFactorAuthenticationException();
+                }
+                CodingNetUserDetailed codingNetUserDetailed = createDataFromRaw(fromJson(result, CodingNetUserRaw.class), CodingNetUserDetailed.class);
+
+                new CreateCookieSid(authData, responsePage).invoke();
                 return codingNetUserDetailed;
             }
             throw new CodingNetAuthenticationException();
         } catch (CodingNetConfusingException e) {
             e.setDetails("Can't get user info");
             throw e;
+        } catch (CodingNetTwoFactorAuthenticationException e) {
+            new CreateCookieSid(authData, responsePage).invoke();
+            throw e;
+
         }
+
     }
 
 
@@ -279,11 +282,9 @@ public class CodingNetApiUtil {
     @NotNull
     public static List<CodingNetRepo> getUserRepos(@NotNull CodingNetConnection connection) throws IOException {
         try {
-            String path = "/api/user/projects";
-
+            String path = "/api/user/projects?" + PER_PAGE;
 
             CodingNetConnection.PagedRequest<CodingNetRepo> request = new CodingNetConnection.PagedRequest<CodingNetRepo>(path, CodingNetRepo.class, CodingNetRepoRaw[].class, ACCEPT_JSON);
-
             return request.getAll(connection);
         } catch (CodingNetConfusingException e) {
             e.setDetails("Can't get user repositories");
@@ -745,6 +746,34 @@ public class CodingNetApiUtil {
         } catch (CodingNetConfusingException e) {
             e.setDetails("Can't find fork by user: " + user + "/" + repo + " - " + forkUser);
             throw e;
+        }
+    }
+
+    private static class CreateCookieSid {
+        private CodingNetAuthData authData;
+        private CodingNetConnection.ResponsePage responsePage;
+
+        public CreateCookieSid(CodingNetAuthData authData, CodingNetConnection.ResponsePage responsePage) {
+            this.authData = authData;
+            this.responsePage = responsePage;
+        }
+
+        public void invoke() {
+            if (responsePage != null) {
+                Header[] headers = responsePage.getHeaders();
+                for (Header header : headers) {
+                    if (header.getName().equals("Set-Cookie")) {
+                        HeaderElement[] headerElements = header.getElements();
+                        for (HeaderElement headerElement : headerElements) {
+                            if (headerElement.getName().equals("sid")) {
+                                authData.getBasicAuth().setSid(headerElement.getValue());
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                }
+            }
         }
     }
 }

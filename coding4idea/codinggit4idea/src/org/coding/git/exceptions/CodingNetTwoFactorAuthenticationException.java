@@ -15,6 +15,10 @@
  */
 package org.coding.git.exceptions;
 
+/**
+ * 2步验证异常
+ *
+ */
 public class CodingNetTwoFactorAuthenticationException extends CodingNetAuthenticationException {
   public CodingNetTwoFactorAuthenticationException() {
     super();

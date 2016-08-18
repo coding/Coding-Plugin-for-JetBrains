@@ -7,22 +7,25 @@ import com.google.gson.annotations.SerializedName;
  */
 public enum CodingNetOpenAPICodeMsg {
 
+    USER_PASSWORD_NO_CORRECT(1, UserPasswordNoCorrect.class),
+    NEED_VERIFICATION_CODE(903, NeedVerificationCode.class),
     NO_LOGIN(1000, NoLogin.class),
-    NO_EXIST_USER(1001,NoExistUser.class),
-    NEED_VERIFICATION_CODE(903,NeedVerificationCode.class),
-    USER_LOCKED(1009,UserLocked.class),
-    USER_PASSWORD_NO_CORRECT(1,UserPasswordNoCorrect.class);
+    NO_EXIST_USER(1001, NoExistUser.class),
+    LOGIN_EXPIRED(1029, LoginExpired.class),
+    AUTH_ERROR(1402, AuthError.class),
+    NEED_TWO_FACTOR_AUTH_CODE(3205, null),
+    TWO_FACTOR_AUTH_CODE_REQUIRED(3209, null),
+    USER_LOCKED(1009, UserLocked.class);
 
 
     private int code;
 
-    private String message;
 
     private Class clazz;
 
-    private CodingNetOpenAPICodeMsg(int code, Class clazz) {
+    CodingNetOpenAPICodeMsg(int code, Class clazz) {
         this.code = code;
-        this.clazz=clazz;
+        this.clazz = clazz;
 
     }
 
@@ -38,7 +41,34 @@ public enum CodingNetOpenAPICodeMsg {
         String getMessage();
     }
 
-    class UserLocked implements ICodingNetOpenAPICodeMsg{
+
+    /**
+     * 2步认证失败
+     */
+    class AuthError implements ICodingNetOpenAPICodeMsg {
+        int code;
+        AuthErrorCodeMsg msg;
+
+        @Override
+        public String getMessage() {
+            return msg.toString();
+        }
+
+        class AuthErrorCodeMsg {
+            @SerializedName("auth_error")
+            String authError;
+
+            @Override
+            public String toString() {
+                return authError;
+            }
+        }
+    }
+
+    /**
+     * 用户锁定
+     */
+    class UserLocked implements ICodingNetOpenAPICodeMsg {
         int code;
         UserLockedCodeMsg msg;
 
@@ -46,19 +76,43 @@ public enum CodingNetOpenAPICodeMsg {
         public String getMessage() {
             return msg.toString();
         }
-    }
 
-    class UserLockedCodeMsg {
-        @SerializedName("account")
-        String account;
+        class UserLockedCodeMsg {
+            @SerializedName("account")
+            String account;
 
-        @Override
-        public String toString() {
-            return account;
+            @Override
+            public String toString() {
+                return account;
+            }
         }
     }
 
-    class UserPasswordNoCorrect implements ICodingNetOpenAPICodeMsg{
+
+    /**
+     * 用户登陆超时
+     */
+    class LoginExpired implements ICodingNetOpenAPICodeMsg {
+        int code;
+        LoginExpiredCodeMsg msg;
+
+        @Override
+        public String getMessage() {
+            return msg.toString();
+        }
+
+        class LoginExpiredCodeMsg {
+            @SerializedName("user_login_status_expired")
+            String loginStatusExpired;
+
+            @Override
+            public String toString() {
+                return loginStatusExpired;
+            }
+        }
+    }
+
+    class UserPasswordNoCorrect implements ICodingNetOpenAPICodeMsg {
         int code;
         UserPasswordNoCorrectMsg msg;
 
@@ -78,7 +132,7 @@ public enum CodingNetOpenAPICodeMsg {
     }
 
 
-    class NeedVerificationCode implements ICodingNetOpenAPICodeMsg{
+    class NeedVerificationCode implements ICodingNetOpenAPICodeMsg {
         int code;
         NeedVerificationCodeMsg msg;
 
@@ -102,7 +156,7 @@ public enum CodingNetOpenAPICodeMsg {
     /**
      * 用户不存在
      */
-    class NoExistUser implements ICodingNetOpenAPICodeMsg{
+    class NoExistUser implements ICodingNetOpenAPICodeMsg {
         int code;
         NoExistUser msg;
 
@@ -113,7 +167,7 @@ public enum CodingNetOpenAPICodeMsg {
 
     }
 
-    class NoExistUserMsg{
+    class NoExistUserMsg {
         String account;
 
         @Override

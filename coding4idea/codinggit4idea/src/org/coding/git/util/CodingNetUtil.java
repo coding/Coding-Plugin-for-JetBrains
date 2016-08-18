@@ -91,6 +91,7 @@ public class CodingNetUtil {
       ScheduledFuture<?> future = null;
 
       try {
+        //--直接尝试获取用户信息
         CodingNetApiUtil.getCurrentUserDetailed(connection,auth);
 
         future = addCancellationListener(indicator, connection);
@@ -101,6 +102,7 @@ public class CodingNetUtil {
         if (future != null) future.cancel(true);
       }
     }
+    //--捕获2步认证,根据异常进行跳转
     catch (CodingNetTwoFactorAuthenticationException e) {
       getTwoFactorAuthData(project, authHolder, indicator, auth);
       return runTask(project, authHolder, indicator, task);
@@ -259,7 +261,7 @@ public class CodingNetUtil {
         throw new CodingNetOperationCanceledException("Two factor authentication can be used only with Login/Password");
       }
 
-      CodingNetApiUtil.askForTwoFactorCodeSMS(new CodingNetConnection(oldAuth, false));
+      //CodingNetApiUtil.askForTwoFactorCodeSMS(new CodingNetConnection(oldAuth, false));
 
       final Ref<String> codeRef = new Ref<String>();
       ApplicationManager.getApplication().invokeAndWait(() -> {

@@ -26,7 +26,6 @@ import com.intellij.ui.DocumentAdapter;
 import com.intellij.ui.HyperlinkAdapter;
 import com.intellij.ui.components.JBLabel;
 import com.intellij.util.ui.JBUI;
-import org.coding.git.api.CodingNetApiUtil;
 import org.coding.git.api.CodingNetUser;
 import org.coding.git.util.*;
 import org.jetbrains.annotations.NotNull;
@@ -93,7 +92,7 @@ public class CodingNetSettingsPanel {
         myTestButton.addActionListener(e -> {
             try {
                 CodingNetAuthData auth = getAuthData();
-                auth.getBasicAuth().setCode("");
+                auth.getBasicAuth().setSid("");
                 CodingNetUser user = CodingNetUtil.computeValueInModalIO(project, "Access to Coding", indicator ->
                         CodingNetUtil.checkAuthData(project, new CodingNetAuthDataHolder(auth), indicator));
 
