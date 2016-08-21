@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2012 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,9 +22,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Date;
 
-/**
- * @author robin
- */
+
 public class CodingNetComment extends SimpleComment {
   @Nullable private final String myAvatarUrl;
   @NotNull private final String myUserHtmlUrl;

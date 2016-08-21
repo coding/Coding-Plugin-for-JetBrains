@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2013 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -65,6 +65,10 @@ public class CodingNetUserDetailed extends CodingNetUser {
 
   public boolean canCreatePrivateRepo() {
     return getPlan() == null || getOwnedPrivateRepos() == null || getPlan().getPrivateRepos() > getOwnedPrivateRepos();
+  }
+
+  public CodingNetUserDetailed(){
+
   }
 
 

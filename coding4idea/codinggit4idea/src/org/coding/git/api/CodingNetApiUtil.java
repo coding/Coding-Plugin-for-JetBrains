@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2014 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,6 +35,12 @@ import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.*;
 
+/**
+ * @author robin
+ *
+ * * Based on https://github.com/JetBrains/intellij-community/blob/master/plugins/github/src/org/jetbrains/plugins/github/api/GithubApiUtil.java
+ * @author JetBrains s.r.o.
+ */
 public class CodingNetApiUtil {
     private static final Logger LOG = CodingNetUtil.LOG;
 

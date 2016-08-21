@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2013 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,9 +18,7 @@ package org.coding.git.exceptions;
 import org.coding.git.api.CodingNetErrorMessage;
 import org.jetbrains.annotations.Nullable;
 
-/**
- * @author Aleksey Pivovarov
- */
+
 public class CodingNetStatusCodeException extends CodingNetConfusingException {
   private final int myStatusCode;
   private final CodingNetErrorMessage myError;

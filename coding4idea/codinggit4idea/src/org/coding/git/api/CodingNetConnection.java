@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2015 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -68,6 +68,9 @@ import static org.coding.git.api.CodingNetApiUtil.fromJson;
  * 封装了HttpClient的网络连接器
  *
  * @author robin
+ *
+ *  * Based on https://github.com/JetBrains/intellij-community/blob/master/plugins/github/src/org/jetbrains/plugins/github/api/GithubConnection.java
+ * @author JetBrains s.r.o.
  */
 public class CodingNetConnection {
     private static final Logger LOG = CodingNetUtil.LOG;
@@ -336,6 +339,7 @@ public class CodingNetConnection {
      */
     private void checkCodingNetCode(JsonElement jsonElement) throws IOException {
         int code = jsonElement.getAsJsonObject().get("code").getAsInt();
+        System.out.println("Current Code is: " + code + " JsonElement is:" + jsonElement.toString());
         if (code == CodingNetOpenAPICodeMsg.NO_LOGIN.getCode()) {
             CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg codingNetOpenAPICodeMsg = (CodingNetOpenAPICodeMsg.ICodingNetOpenAPICodeMsg) fromJson(jsonElement, CodingNetOpenAPICodeMsg.NO_LOGIN.getClazz());
             throw new CodingNetAuthenticationException(codingNetOpenAPICodeMsg.getMessage());

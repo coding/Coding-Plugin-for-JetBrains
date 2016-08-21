@@ -1,35 +1,45 @@
 <idea-plugin version="2">
-  <id>net.coding.git</id>
-  <name>codinggit4idea</name>
-  <version>1.0</version>
-  <vendor email="82324767@qq.com" url="http://www.coding.net">www.coding.net</vendor>
+    <id>net.coding.git</id>
+    <name>Coding.net</name>
+    <version>1.0</version>
+    <vendor email="82324767@qq.com" url="https://www.coding.net">www.coding.net</vendor>
 
-  <description><![CDATA[
-      Coding net GIT for IDEA plugin.<br>
-      <em>www.coding.net</em>
+    <description><![CDATA[
+  Allows working with
+<a href="https://coding.net/" rel="nofollow">Coding.net</a>.
+<br><br>
+<strong>ABOUT CODING</strong>
+<br><br>
+CODING established in February 2014, is one of the most advanced service platforms for software could-developing in China. <br><br>
+<a href="https://coding.net/" rel="nofollow">Coding.net</a> and <a href="https://mart.coding.net" rel="nofollow">CodeMart</a> are the major sub-brands of CODING. The former acts as an on-cloud coordinate stage to provide service and tools for on-cloud software developing. The key service of Coding.net includes code trusteeship, project management, product display and WebIDE. <br><br>
+<a href="https://mart.coding.net" rel="nofollow">CodeMart</a> was launched on October 2015. It functioned as an crowdsourcing platform. Different from traditional crowdsourcing platforms, the vision of CodeMart is more than an information provider or task-board manager. It’s not only connecting developers and clients, but also supervising the whole process in order to ensure high efficiency and the safety of their on-cloud cooperation.
+<br><br>
+      <strong>This Plugin is a <a href="https://mart.coding.net/project/2804" rel="nofollow">CodeMart Project</a>.</strong>
+<br>
+Develop by <a>r0b1n_0u</a>
     ]]></description>
 
-  <change-notes>
-  </change-notes>
+    <change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="141.0"/>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="162.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
-  <depends>com.intellij.modules.lang</depends>
-  <depends>Git4Idea</depends>
-  <depends optional="true" config-file="coding-tracker.xml">com.intellij.tasks</depends>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>Git4Idea</depends>
+    <depends optional="true" config-file="coding-tracker.xml">com.intellij.tasks</depends>
 
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-    <checkoutProvider implementation="org.coding.git.providers.CodingNetCheckoutProvider"/>
-    <applicationService serviceInterface="org.coding.git.util.CodingNetSettings"
-                        serviceImplementation="org.coding.git.util.CodingNetSettings"/>
-    <vcsConfigurableProvider implementation="org.coding.git.ui.CodingNetSettingsConfigurableProvider"/>
-  </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <checkoutProvider implementation="org.coding.git.providers.CodingNetCheckoutProvider"/>
+        <applicationService serviceInterface="org.coding.git.util.CodingNetSettings"
+                            serviceImplementation="org.coding.git.util.CodingNetSettings"/>
+        <vcsConfigurableProvider implementation="org.coding.git.ui.CodingNetSettingsConfigurableProvider"/>
+    </extensions>
 
 </idea-plugin>

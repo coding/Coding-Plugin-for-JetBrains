@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2016 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,10 +37,7 @@ import java.awt.event.ItemEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author oleg
- * @date 10/20/10
- */
+
 public class CodingNetLoginPanel {
     private JPanel myPane;
     private JTextField myHostTextField;

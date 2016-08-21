@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2013 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,9 +18,6 @@ package org.coding.git.api;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-/**
- * @author Aleksey Pivovarov
- */
 @SuppressWarnings({"FieldCanBeLocal", "UnusedDeclaration"})
 public class CodingNetRepoOrg extends CodingNetRepo {
   @NotNull private final Permissions myPermissions;

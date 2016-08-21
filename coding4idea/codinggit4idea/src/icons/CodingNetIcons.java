@@ -1,5 +1,5 @@
 /*
- * Copyright 2000-2013 JetBrains s.r.o.
+ * Copyright 2016 Coding
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,10 +19,6 @@ import com.intellij.openapi.util.IconLoader;
 
 import javax.swing.*;
 
-/**
- * NOTE THIS FILE IS AUTO-GENERATED
- * DO NOT EDIT IT BY HAND, run build/scripts/icons.gant instead
- */
 public class CodingNetIcons {
   private static Icon load(String path) {
     return IconLoader.getIcon(path, CodingNetIcons.class);
