@@ -26,6 +26,7 @@ import com.intellij.tasks.impl.BaseRepositoryImpl;
 import com.intellij.util.containers.ContainerUtil;
 import com.intellij.util.xmlb.annotations.Tag;
 import com.intellij.util.xmlb.annotations.Transient;
+import icons.CodingNetIcons;
 import icons.TasksIcons;
 import org.coding.git.api.CodingNetApiUtil;
 import org.coding.git.api.CodingNetConnection;
@@ -213,7 +214,7 @@ public class CodingNetRepository extends BaseRepositoryImpl {
       @NotNull
       @Override
       public Icon getIcon() {
-        return TasksIcons.Github;
+        return CodingNetIcons.Github_icon;
       }
 
       @NotNull

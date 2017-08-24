@@ -17,7 +17,6 @@ package org.coding.git.util;
 
 import com.intellij.ide.passwordSafe.PasswordSafe;
 import com.intellij.ide.passwordSafe.PasswordSafeException;
-import com.intellij.ide.passwordSafe.config.PasswordSafeSettings;
 import com.intellij.ide.passwordSafe.impl.PasswordSafeImpl;
 import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.ServiceManager;
@@ -30,6 +29,7 @@ import org.coding.git.api.CodingNetApiUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import static com.intellij.credentialStore.ProviderType.*;
 import static org.coding.git.util.CodingNetAuthData.AuthType;
 
 
@@ -130,7 +130,7 @@ public class CodingNetSettings implements PersistentStateComponent<CodingNetSett
 
   public boolean isSavePasswordMakesSense() {
     final PasswordSafeImpl passwordSafe = (PasswordSafeImpl)PasswordSafe.getInstance();
-    return passwordSafe.getSettings().getProviderType() == PasswordSafeSettings.ProviderType.MASTER_PASSWORD;
+    return passwordSafe.getSettings().getProviderType() == KEEPASS;
   }
 
   public boolean isCloneGitUsingSsh() {
@@ -191,7 +191,7 @@ public class CodingNetSettings implements PersistentStateComponent<CodingNetSett
       }
       else {
         final PasswordSafeImpl passwordSafe = (PasswordSafeImpl)PasswordSafe.getInstance();
-        if (passwordSafe.getSettings().getProviderType() != PasswordSafeSettings.ProviderType.DO_NOT_STORE) {
+        if (passwordSafe.getSettings().getProviderType() != DO_NOT_STORE) {
           passwordSafe.getMemoryProvider().storePassword(null, CodingNetSettings.class, CODINGNET_SETTINGS_PASSWORD_KEY, password);
         }
       }

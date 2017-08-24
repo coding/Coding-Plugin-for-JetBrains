@@ -21,6 +21,7 @@ import com.intellij.tasks.TaskState;
 import com.intellij.tasks.config.TaskRepositoryEditor;
 import com.intellij.tasks.impl.BaseRepositoryType;
 import com.intellij.util.Consumer;
+import icons.CodingNetIcons;
 import icons.TasksIcons;
 import org.jetbrains.annotations.NotNull;
 
@@ -43,7 +44,7 @@ public class CodingNetRepositoryType extends BaseRepositoryType<CodingNetReposit
   @NotNull
   @Override
   public Icon getIcon() {
-    return TasksIcons.Github;
+    return CodingNetIcons.Github_icon;
   }
 
   @NotNull

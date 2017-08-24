@@ -92,7 +92,7 @@ public class CodingNetSettingsPanel {
         myTestButton.addActionListener(e -> {
             try {
                 CodingNetAuthData auth = getAuthData();
-                auth.getBasicAuth().setSid("");
+                //auth.getBasicAuth().setSid("");
                 CodingNetUser user = CodingNetUtil.computeValueInModalIO(project, "Access to Coding", indicator ->
                         CodingNetUtil.checkAuthData(project, new CodingNetAuthDataHolder(auth), indicator));
 
