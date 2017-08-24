@@ -164,7 +164,7 @@ public class CodingNetConnection {
         return builder
                 .setDefaultRequestConfig(createRequestConfig(auth))
                 .setDefaultConnectionConfig(createConnectionConfig(auth))
-                .setDefaultCredentialsProvider(createCredentialsProvider(auth))
+                //.setDefaultCredentialsProvider(createCredentialsProvider(auth))
                 .setDefaultHeaders(createHeaders(auth))
                 .addInterceptorFirst(PREEMPTIVE_BASIC_AUTH)
                 .setSslcontext(CertificateManager.getInstance().getSslContext())
@@ -184,6 +184,7 @@ public class CodingNetConnection {
                 BasicClientCookie cookie = new BasicClientCookie("sid", code);
                 cookie.setDomain(".coding.net");
                 cookie.setPath("/");
+                cookie.setSecure(true);
                 cookieStore.addCookie(cookie);
             }
         }

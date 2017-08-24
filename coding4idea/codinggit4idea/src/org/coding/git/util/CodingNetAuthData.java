@@ -20,6 +20,8 @@ import org.coding.git.api.CodingNetApiUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.UUID;
+
 /**
  * @author robin
  */
@@ -148,6 +150,9 @@ public class CodingNetAuthData {
         private BasicAuth(@NotNull String login, @NotNull String password, @Nullable String sid) {
             myLogin = login;
             myPassword = password;
+            if (sid == null) {
+                sid= UUID.randomUUID().toString();
+            }
             mySid = sid;
         }
 
