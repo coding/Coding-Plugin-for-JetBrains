@@ -25,7 +25,7 @@ public class CodingNetSecurityUtil {
 
     public static String getUserPasswordOfSHA1(String passWord){
         try {
-            MessageDigest digest = java.security.MessageDigest
+            MessageDigest digest = MessageDigest
                     .getInstance("SHA-1");
             digest.update(passWord.getBytes());
             byte messageDigest[] = digest.digest();

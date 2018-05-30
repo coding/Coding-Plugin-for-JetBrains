@@ -1,8 +1,8 @@
-<idea-plugin version="2">
+<idea-plugin>
     <id>net.coding.git</id>
     <name>Coding.net</name>
     <version>1.0</version>
-    <vendor email="82324767@qq.com" url="https://www.coding.net">www.coding.net</vendor>
+    <vendor email="support@coding.net" url="https://coding.net">Coding</vendor>
 
     <description><![CDATA[
   Allows working with
@@ -19,7 +19,8 @@ CODING established in February 2014, is one of the most advanced service platfor
 Develop by <a>r0b1n_0u</a>
     ]]></description>
 
-    <change-notes>
+    <change-notes><![CDATA[
+    ]]>
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
@@ -27,9 +28,7 @@ Develop by <a>r0b1n_0u</a>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
-    <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
-    -->
+
     <depends>com.intellij.modules.lang</depends>
     <depends>Git4Idea</depends>
     <depends optional="true" config-file="coding-tracker.xml">com.intellij.tasks</depends>
@@ -41,5 +40,9 @@ Develop by <a>r0b1n_0u</a>
                             serviceImplementation="org.coding.git.util.CodingNetSettings"/>
         <vcsConfigurableProvider implementation="org.coding.git.ui.CodingNetSettingsConfigurableProvider"/>
     </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
 
 </idea-plugin>

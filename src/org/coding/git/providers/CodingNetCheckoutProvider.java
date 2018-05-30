@@ -73,13 +73,8 @@ public class CodingNetCheckoutProvider implements CheckoutProvider {
 //      return comparedOwners != 0 ? comparedOwners : r1.getName().compareTo(r2.getName());
 //    });
 
-        final CodingNetGitCloneDialog dialog = new CodingNetGitCloneDialog(project);
+        final CodingNetGitCloneDialog dialog = new CodingNetGitCloneDialog(project, availableRepos);
         dialog.cleanCacheModel();
-        // Add predefined repositories to history
-        //dialog.prependToHistory("-----------------------------------------------");
-        for (int i = availableRepos.size() - 1; i >= 0; i--) {
-            dialog.prependToHistory(availableRepos.get(i).getHttpsUrl());
-        }
         if (!dialog.showAndGet()) {
             return;
         }
