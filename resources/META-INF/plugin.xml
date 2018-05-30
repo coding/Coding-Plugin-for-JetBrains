@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>net.coding.git</id>
     <name>Coding.net</name>
-    <version>1.0</version>
+    <version>1.1.0</version>
     <vendor email="support@coding.net" url="https://coding.net">Coding</vendor>
 
     <description><![CDATA[
